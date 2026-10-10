@@ -6,7 +6,7 @@ First Things is an app that helps people finish important tasks before getting d
 
 ## ERD
 
-![First Things ERD showing the user, goal, task, and daily tables](docs/erd.png)
+![First Things ERD showing the user, goal, task, and daily tables](Firstdocs/erd.png)
 
 ## Tech Stack
 
