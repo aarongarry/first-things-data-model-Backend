@@ -20,7 +20,7 @@ This tech stack works best for us because we all know and understand HTML CSS an
 
 1. **Get a copy of the code.** On this GitHub repository’s page, select **Code → Download ZIP**, then unzip it. You can also clone the repository. Open the project folder in VS Code or another editor.
 
-2. **Check the Supabase configuration.** Open [`dist/supabase-config.js`](dist/supabase-config.js). The team’s project URL and public key are already filled in. To use that project, leave them as they are and make sure `USE_SUPABASE` is `true`.
+2. **Check the Supabase configuration.** Open [`docs/supabase-config.js`](docs/supabase-config.js). The team’s project URL and public key are already filled in. To use that project, leave them as they are and make sure `USE_SUPABASE` is `true`.
 
    To use your own Supabase project instead, run all of [`supabase/setup.sql`](supabase/setup.sql) in that project’s **SQL Editor**. Wait for the success message, then go to **Authentication → Sign In / Providers**, turn on **Allow anonymous sign-ins**, and click **Save changes**. Copy the project URL and publishable key from the project overview into these lines:
 
